@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import imutils
 
-bgr = cv2.imread('jack.jpeg')
+bgr = cv2.imread('prueba.jpg')
 bgr= imutils.resize(bgr,width=400)
 C1= bgr[:,:,0]
 C2= bgr[:,:,1]
